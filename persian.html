@@ -1,141 +1,150 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <title>Hamidreza Khorram</title>
-  <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font/dist/font-face.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    body {
+      font-family: 'Vazir', sans-serif;
+      direction: rtl;
+      text-align: right;
+    }
 
+    .logo {
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+
+    h1, h2, h3, h4, h5, h6, p, ul, li {
+      text-align: right;
+    }
+
+    .vertical-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .vertical-list li {
+      margin: 5px 0;
+    }
+  </style>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<head>
-	<meta charset="UTF-8">
-	<title>Lewis Alberto Briffa</title>
-	<link href='https://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="styles/main.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"
-	<!--[if IE]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!-- LANDING PAGE -->
+  <section id="home">
+    <!-- OVERLAY -->
+    <div class="overlay">
+      <!-- PRIMARY NAVIGATION -->
+      <nav role="navigation">
+        <ul class="vertical-list">
+          <li><a href="#home">خانه</a></li>
+          <li><a href="#about">درباره من</a></li>
+          <li><a href="#portfolio">نمونه کار</a></li>
+        </ul>
+      </nav>
+      <!-- END OF PRIMARY NAVIGATION -->
 
-</head>
-<body>
-	
-		<!-- LANDING PAGE -->
-		<section id="home">
-			<!-- OVERLAY -->
-			<div class="overlay">
-				<!-- PRIMARY NAVIGATION -->
-				<nav role="navigation">
-					<ul class="vertical-list">
-						<li><a href="#home">خانه</a></li>
-						<li><a href="#about">درباره من</a></li>
-						<li><a href="#portfolio">نمونه کار</a></li>
-					</ul>
-				</nav>
-				<!-- END OF PRIMARY NAVIGATION -->
+      <!-- CONTAINER -->
+      <div class="container">
+        <h1><span class="logo">حمید</span><small>توسعه دهنده وب بک‌اند</small></h1>
+        <ul class="social-links vertical-list">
+          <li><a href="https://twitter.com/labDevelopments" class="noir twitter" target="_blank">Instagram</a></li>
+          <li><a href="https://github.com/hamidrezakhorram" class="noir linkedin" target="_blank">Github</a></li>
+          <li><a href="https://www.freecodecamp.com/labriffa" class="noir freecodecamp" target="_blank">Telegram</a></li>
+        </ul>
+      </div>
+      <!-- END OF CONTAINER -->
+    </div>
+    <!-- END OF OVERLAY -->
+  </section>
+  <!-- END OF LANDING PAGE -->
 
-				<!-- CONTAINER -->
-				<div class="container">
-					<h1><span class="logo">حمید</span><small>Backend Web Dveloper</small></h1>
-						<ul class="social-links vertical-list">
-						<li><a href="https://twitter.com/labDevelopments" class="noir twitter" target="_blank">Instagram</a></li>
-						<li><a href="https://github.com/hamidrezakhorram" class="noir linkedin" target="_blank">Github</a></li>
-						<li><a href="https://www.freecodecamp.com/labriffa" class="noir freecodecamp" target="_blank">Telegram</a></li>
-					</ul>
-				</div>
-				<!-- END OF CONTAINER -->
-			</div>
-			<!-- END OF OVERLAY -->
-		</section>
-		<!-- END OF LANDING PAGE -->
+  <!-- ABOUT -->
+  <section id="about">
+    <!-- CONTAINER -->
+    <div class="container">
+      <h2>درباره من</h2>
+      <div class="row info">
+        <div class="col-sm-8">
+          <p>
+            درحال حاضر بنده دانشجوی مهندسی کامپیوتر  دانشگاه اصفهان هستم
+            <span class="signature">حمیدرضا خرم</span>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img src="image.jpg" alt="Hamidreza Khorram" class="img-responsive img-circle">
+        </div>
+      </div>
+      
+      <div id="skill-set">
+        <h3>مهارت‌ها</h3>
+        <ul class="vertical-list">
+          <li>
+            <ul class="vertical-list skills" id="web-development-skills">
+              <li>Python</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="vertical-list skills" id="automation-skills">
+              <li>Django</li>
+            </ul>
+          </li>
 
+          <li>
+            <ul class="vertical-list skills" id="misc-skills">
+              <li>C</li>
+              <li>C++</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END OF CONTAINER -->
+  </section>
+  <!-- END OF ABOUT -->
 
-		<!-- ABOUT -->
-		<section id="about">
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2> درباره من</h2>
-				<div class="row info">
-					<div class="col-sm-8">
-						<p>
-							درحال حاضر بنده دانشجوی دانشگاه اصفهان هستم
-						<span class="signature">.hamidreza khorram</span>
-					</div>
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+    <!-- CONTAINER -->
+    <div class="container">
+      <h2>نمونه کارهای من</h2>
+    </div>
+    <!-- END OF CONTAINER -->
+    
+    <div class="container">
+      <section>
+        <!-- OVERLAY -->
+        <div class="overlay">
+          <!-- DESCRIPTION -->
+          <div class="description">
+            <p>
+              بک اند این سایت فروشگاهی را با استفاده از فریمورک جنگو ایجاد کرده‌ام
+            </p>
+            
+            <h6>ابزارها<span class="glyphicon glyphicon-cog"></span></h6>
+            <ul class="tools vertical-list">
+              <li>Python</li>
+              <li>Django</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <!-- END OF DESCRIPTION -->
+          
+          <img src="kashangol.png" alt="Editorial Monitoring Automated Excel Screenshot">
+          <h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>سایت کاشان گل</h4>
+        </div>
+        <!-- END OF OVERLAY -->
+      </section>
+      <!-- END OF SECTION -->
+    </div>
+    <!-- END OF PORTFOLIO -->
+  </section>
 
-					<div class="col-md-4">
-						<img src="image.jpg" alt="Lewis Alberto Briffa" class="img-responsive img-circle">
-					</div>
-				</div>
-				
-				<div id="skill-set">
-					<h3>Skills</h3>
-					<ul class="vertical-list">
-						<li>
-							<ul class="vertical-list skills" id="web-development-skills">
-								<li>Python</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="vertical-list skills" id="automation-skills">
-								<li>Django</li>
-							</ul>
-						</li>
-
-						<li>
-							<ul class="vertical-list skills" id="misc-skills">
-								<li>C</li>
-								<li>C++</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!-- END OF CONTAINER -->
-		</section>
-		<!-- END OF ABOUT -->
-
-		<!-- PORTFOLIO -->
-		<section id="portfolio">
-			
-					<!-- CONTAINER -->
-					<div class="container">
-						<h2>نمونه کارهای من</h2>
-					</div>
-					<!-- END OF CONTAINER -->
-					
-					<div class="container">
-						<section>
-								<!-- OVERLAY -->
-								<div class="overlay">
-									<!-- DESCRIPTION -->
-									<div class="description">
-										<p>
-											بک اند این سایت فروشگاهی را با استفاده از فریمورک جنگو ایجاد کرده‌ام
-										</p>
-										
-										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-										<ul class="tools vertical-list">
-											<li>Python</li>
-											<li>Django</li>
-											<li>HTML</li>
-											<li>CSS</li>
-										</ul>
-									</div>
-									<!-- END OF DESCRIPTION -->
-									
-									<img src="kashangol.png" alt="Editorial Monitoring Automated Excel Screenshot">
-									<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>سایت کاشان گل</h4>
-								</div>
-								<!-- END OF OVERLAY -->
-							</section>
-							<!-- END OF SECTION -->
-
-							
-					<!-- END OF PORTFOLIO -->
-					</div>
-
-		
-<!-- partial -->
-  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
-
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
